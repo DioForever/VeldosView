@@ -1,0 +1,231 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+
+body{
+    background-color: #061828;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li a img{
+    width: 40px;
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.back{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav .search{
+    display: flex;
+    align-items: center;
+    flex: 15;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+nav .search img{
+    width: 35px;
+    padding: 0;
+    display: inline-flex;
+    margin: 0 3px;
+
+}
+
+nav .search input{
+    background: transparent;
+    flex: 1;
+    width: 50vw;
+    border: 0;
+    outline: none;;
+    padding: 0.5% 2%;
+    font-size: 20px;
+    color: #1a87e6;
+}
+
+.pfp{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.pfp img{
+    border-radius: 50%;
+    border: 2.5px solid white;
+}
+
+.pfp a{
+    border-radius: 50%;
+
+}
+
+
+nav li a input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;;
+    padding: 0.5% 2%;
+    font-size: 20px;
+    color: #8dafcc;
+}
+
+
+
+
+
+
+
+
+
+.background{
+    margin-top: 1%;
+    width: 95vw;
+    border-radius: 10px;
+    border: 3.5px solid #0d4d85;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #0d4d85 */
+div .info{
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: #0d4d85;
+    border-radius: 10px;
+}
+
+
+div .info .infoRow{
+    display: flex;
+    justify-content: center;
+}
+
+div .info img{
+    margin: 1%;
+    width: 12%;
+    border: 10px;
+    border-radius: 5px;
+}
+
+
+div .info h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 150%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div .info .infoRow .Text div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+div .info .infoRow .Text div p{
+    padding: 2%;
+    display: block;
+    background-color: #316089;
+    border-radius: 10px;
+    color: white;
+}
+
+div .info p1{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 10px solid #316089;
+    background-color: #316089;
+}
+
+div .info button{
+    margin: 1%;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #316089;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div .Episodes{
+    margin-top: 1%;
+    width: 95vw;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div .Episodes div{
+    background-color: #0d4d85;
+    border-radius: 10px;
+    width: 95vw;
+    color: white;   
+
+}
+
+div .Episodes div h1{
+    font-size: 120%;
+    padding: 5px;
+}
+
+div .Episodes div div {
+    background-color: #0d2f52;
+    border-radius: 10px;
+    height: 10px;
+    border: 0;
+    margin: 5px;
+    width: 93.2vw;
+    
+}
+
+div .Episodes div div hr{
+    background-color: #397ec2;
+    border-radius: 10px;
+    height: 6px;
+    border: 0;
+    margin: 5px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    div .info img{
+        margin: 1%;
+        width: 35%;
+        height: 100%;
+        border: 10px;
+        border-radius: 5px;
+    }
+
+
+  }
