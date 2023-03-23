@@ -214,10 +214,7 @@ div .Episodes div div hr{
 
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+@media only screen and (max-width: 650px) {
 
     div .info img{
         margin: 1%;
