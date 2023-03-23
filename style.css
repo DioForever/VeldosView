@@ -76,25 +76,6 @@ nav .search input{
 
 }
 
-
-nav li a input{
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;;
-    padding: 0.5% 2%;
-    font-size: 20px;
-    color: #8dafcc;
-}
-
-
-
-
-
-
-
-
-
 .background{
     margin-top: 1%;
     width: 95vw;
@@ -105,7 +86,6 @@ nav li a input{
     margin-right: auto;
 }
 
-/* #0d4d85 */
 div .info{
     width: 95vw;
     margin-left: auto;
