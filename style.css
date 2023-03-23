@@ -102,10 +102,12 @@ div .info .infoRow{
 }
 
 div .info img{
-    margin: 1%;
+    margin-top: 1%;
     width: 12%;
     border: 10px;
     border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -116,8 +118,9 @@ div .info h1{
     padding-top: 20px;
     font-size: 150%;
     margin: 0;
-    padding: 0;
-    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
 }
 
 div .info .infoRow .Text div{
@@ -127,6 +130,8 @@ div .info .infoRow .Text div{
 }
 div .info .infoRow .Text div p{
     padding: 2%;
+    margin-left: 1vw;
+    margin-right: 1vw;
     display: block;
     background-color: #316089;
     border-radius: 10px;
